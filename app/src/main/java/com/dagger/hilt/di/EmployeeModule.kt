@@ -13,7 +13,7 @@ abstract class EmployeeModule {
 
     @Binds
     abstract fun provideChallengeRepository(
-        challengeRepositoryImpl: EmployeeRepositoryImpl
+        employeeRepositoryImpl: EmployeeRepositoryImpl
     ) : EmployeeRepository
 
 }
